@@ -1,0 +1,53 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/member/index/index",
+    "pages/member/Login/Login",
+    "pages/member/register/register",
+    "pages/member/userManager/userManager",
+    "pages/common/LogOut/LogOut",
+    "pages/bookList/bookCategory/bookCategory",
+    "pages/bookList/bookDetail/bookDetail",
+    "pages/shopCar/shopCar/shopCar",
+    "pages/shopCar/buyGoods/buyGoods",
+    "pages/member/soleUserManager/soleUserManager",
+    "pages/member/addSoleuser/addSoleuser",
+    "pages/order/orderDetail/orderDetail"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "网上书城",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "selectedColor": "#3cc51f",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/icons/icon_home.png",
+        "selectedIconPath": "images/icons/icon_home_selected.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/bookList/bookCategory/bookCategory",
+        "iconPath": "images/icons/icon_cate.png",
+        "selectedIconPath": "images/icons/icon_cate_selected.png",
+        "text": "分类"
+      },
+      {
+        "pagePath": "pages/shopCar/shopCar/shopCar",
+        "iconPath": "images/icons/icon_cart.png",
+        "selectedIconPath": "images/icons/icon_cart_selected.png",
+        "text": "购物车"
+      },
+      {
+        "pagePath": "pages/member/index/index",
+        "iconPath": "images/icons/icon_member.png",
+        "selectedIconPath": "images/icons/icon_member_selected.png",
+        "text": "我"
+      }
+    ]
+  }
+}
